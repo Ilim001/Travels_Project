@@ -1,0 +1,123 @@
+[
+    {
+        "id": 1,
+        "image": "https://www.atorus.ru/sites/default/files/styles/head_carousel/public/2022-02/4ca006.jpg.webp?itok=irPR-MRm",
+        "title": "Philippines",
+        "price": "287$"
+    },
+    {
+        "id": 2,
+        "image": "https://a.cdn-hotels.com/gdcs/production143/d1112/c4fedab1-4041-4db5-9245-97439472cf2c.jpg",
+        "title": "Bali",
+        "price": "1 180$"
+    },
+    {
+        "id": 3,
+        "image": "https://idsb.tmgrup.com.tr/ly/uploads/images/2022/03/24/193378.jpg",
+        "title": "Turkey",
+        "price": "200$" 
+    } ,
+    {
+        "id": 4,
+        "image": "https://static.toiimg.com/photo/96931733.cms",
+        "title": "Thailand",
+        "price": "170$"
+    },
+    {
+        "id": 5,
+        "image": "https://otdyhateli.com/wp-content/uploads/2016/03/23.jpg",
+        "title": "Paris",
+        "price": "350$"
+    },
+    {
+        "id": 6,
+        "image": "https://media.cnn.com/api/v1/images/stellar/prod/230308151844-01-mexico-travel-advisories-guerreros.jpg?c=original",
+        "title": "Mexico",
+        "price": "300$"
+    },
+    {
+        "id": 7,
+        "image": "https://travellersworldwide.com/wp-content/uploads/2023/01/Shutterstock_653196580.jpg",
+        "title": "Moscow",
+        "price": "150$"
+    },
+    {
+        "id": 8,
+        "image": "https://assets.editorial.aetnd.com/uploads/2019/03/topic-london-gettyimages-760251843-feature.jpg",
+        "title": "London",
+        "price": "1 025$"
+    },
+    {
+        "id": 9,
+        "image": "https://media.cntraveler.com/photos/646fac649b31895c2ec85c37/3:2/w_5184,h_3456,c_limit/Emirates%20Offering%20Free%20Hotel%20Stays%20This%20Summer%20to%20Passengers%20Flying%20to%20Dubai_emma-harrisova-UDsO83Ts6tQ-unsplash.jpg",
+        "title": "Dubai",
+        "price": "320$"
+    },
+    {
+        "id": 10,
+        "image": "https://i.natgeofe.com/n/d3eb75f2-1cfb-4934-8def-8ff7a39985b8/1-urban-innovator-singapore-AP_17028110123351_3x2.jpg",
+        "title": "Singapore",
+        "price": "400$"
+    },
+    {
+        "id": 11,
+        "image": "https://planetofhotels.com/guide/sites/default/files/styles/node__blog_post__bp_banner/public/live_banner/Tokyo.jpg",
+        "title": "Tokio",
+        "price": "500$"
+    },
+    {
+        "id": 12,
+        "image": "https://barcelonatm.ru/wp-content/uploads/2018/04/barselona-s-vysoty-1.jpg",
+        "title": "Barselona",
+        "price": "300$"
+    },
+    {
+        "id": 13,
+        "image": "https://media.cntraveler.com/photos/636529b1d36379b0d80f679d/4:3/pass/Madrid_GettyImages-1175211342.jpg",
+        "title": "Madrid",
+        "price": "370$"
+    },
+    {
+        "id": 14,
+        "image": "https://content.r9cdn.net/rimg/dimg/34/63/e358adfb-city-23190-16547cb06d3.jpg?width=1366&height=768&xhint=2058&yhint=1668&crop=true",
+        "title": "Hohg Kong",
+        "price": "480$"
+    },
+    {
+        "id": 15,
+        "image": "https://planetofhotels.com/guide/sites/default/files/styles/paragraph__text_with_image___twi_image/public/2022-02/Miami-Beach.jpg",
+        "title": "Mayami",
+        "price": "870$"
+    },
+    {
+        "id": 16,
+        "image": "https://a.cdn-hotels.com/gdcs/production68/d1314/b12f79e7-bcce-4cac-96f8-33f98b9bfb88.jpg",
+        "title": "Milan",
+        "price": "560$"
+    },
+    {
+        "id": 17,
+        "image": "https://www.travelandleisure.com/thmb/_3nQ1ivxrnTKVphdp9ZYvukADKQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/amsterdam-nl-AMSTERDAMTG0521-6d2bfaac29704667a950bcf219680640.jpg",
+        "title": "Amsterdam",
+        "price": "360$"
+    },
+    {
+        "id": 18,
+        "image": "https://gezeyenler.com/uploads/post/bae8a3db947bd243658eb144ebf4540f.jpg?v=1582267758",
+        "title": "Venesiya",
+        "price": "310$"
+    },
+    {
+        "id": 19,
+        "image": "https://otdyhateli.com/wp-content/uploads/2016/04/42.jpg",
+        "title": "Sidney",
+        "price": "400$"
+    },
+    {
+        "id": 20,
+        "image": "https://i.natgeofe.com/k/5b396b5e-59e7-43a6-9448-708125549aa1/new-york-statue-of-liberty_16x9.jpg?w=1200",
+        "title": "New york",
+        "price": "600$"
+    }
+
+]

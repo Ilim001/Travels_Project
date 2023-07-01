@@ -1,0 +1,59 @@
+.SignUp{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: aliceblue;
+    box-sizing: border-box;
+}
+.form1{
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    width: 400px;
+    transform: translate(-50%, -50%);
+    background: #1a1c22;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 1);
+    border-radius: 15px;
+    height: 300px;
+}
+
+.form1 > h1 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #f4fefd;
+    text-align: center;
+}
+.email{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+
+.password{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+
+.buttons{
+    color: #ffffff;
+    border: none;
+    /* background: transparent; */
+    height: 30px;
+    width: 150px;
+    border-radius: 25px;
+}
