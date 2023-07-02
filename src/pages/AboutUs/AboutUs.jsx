@@ -8,7 +8,7 @@ function AboutUs () {
       <section class="section-white">
  
     <div class="container">
- 
+    
         <div class="row">
        
                     <div class="block">
