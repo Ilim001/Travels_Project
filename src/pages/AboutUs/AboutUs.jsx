@@ -10,7 +10,7 @@ function AboutUs () {
     <div class="container">
     
         <div class="row">
-       
+            
                     <div class="block">
 
                           <h2 class="section-title">Our Team</h2>
