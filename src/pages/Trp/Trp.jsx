@@ -16,7 +16,7 @@ import reach from '../../assets/Group 256.svg'
 import air from '../../assets/Vector-9.svg'
 import star from '../../assets/Ellipse 43.svg'
 import grade from '../../assets/Group 274.svg'
-import sms from '../../assets/Group 55.svg'  
+import sms from '../../assets/Group 55.svg' 
 import phone from '../../assets/Vector-10.svg'
 import map from '../../assets/Vector-11.svg'
 // import { card1 } from "../../data"
@@ -52,7 +52,7 @@ const Trp = () => {
             </div>
 
             <div className="section2">
-                <div className="container">
+                <div className="container"> 
                     <div className="section2_box">
                         <div className="section2_img">
                             <img src={icon2} alt="" />
