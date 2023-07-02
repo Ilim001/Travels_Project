@@ -12,7 +12,7 @@ const SignUp = () => {
       useEffect(() => {
           if(emailError || passwordError){
             setFormValid(false)
-          } else{
+          } else{  
             setFormValid(true)
           }
       }, [emailError, passwordError]) 
