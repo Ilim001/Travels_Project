@@ -7,7 +7,7 @@ const Air = ({airport1, airport2, date1, date2, time1, time2, price1, btn1}) => 
   }
 
   return (
-      <div className='elastic'>      
+      <div className='elastic'>
           <div className="italic">Место вылета: {airport1}</div>
           <div className="italic">Место прилета: {airport2}</div>
           {/* <div className="italic">Начало продаж билетов: {date1}</div>

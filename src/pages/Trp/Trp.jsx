@@ -1,26 +1,25 @@
 import React from "react"
+import { Link } from "react-router-dom"
+import card from '../../data.js'
+import card2 from "../../data2.js"
 
 import './Trp.css'
 
 import icon1 from '../../assets/Mask Group.svg'
 import icon2 from '../../assets/Group 28.svg'
 import hotel from '../../assets/Group 34.svg'
-import taxi from '../../assets/Group-3.svg'
-import plane from '../../assets/Group 14.svg'
-import tour from '../../assets/Group-4.svg'
-import thailand from '../../assets/Rectangle 33.svg'
-import thailand2 from '../../assets/Rectangle 33-2.svg'
-import thailand3 from '../../assets/Rectangle 33-3.svg'
-import thailand4 from '../../assets/Rectangle 33-4.svg'
+
+// import thailand from '../../assets/Rectangle 33.svg'
+
 import pay from '../../assets/Group 255.svg'
 import reach from '../../assets/Group 256.svg'
 import air from '../../assets/Vector-9.svg'
 import star from '../../assets/Ellipse 43.svg'
 import grade from '../../assets/Group 274.svg'
-import sms from '../../assets/Group 55.svg'
+import sms from '../../assets/Group 55.svg'  
 import phone from '../../assets/Vector-10.svg'
 import map from '../../assets/Vector-11.svg'
-import { Link } from "react-router-dom"
+// import { card1 } from "../../data"
 // import footer from '../../assets/image 6.svg'
 
 
@@ -78,17 +77,20 @@ const Trp = () => {
                             <p className="section3_subtitle6_1">There was consensus, not surprisingly, that quality traditional travel agencies provide value for money. However, this was accompanied by a high level of concern that many consumers</p>
                         </div>
                         <div className="section3_category">
-                            <div className="section3_card">
-                                <img src={hotel} alt="" />
-                                <h2 className="section3_title4">Book Hotel</h2>
-                                <p className="section3_subtitle6">In-depth interviews with 19 owners of exceptionally successful US-based conventional travel agencies </p>
+                            {card.map((card,index) => (
+                                <div className="section3_card" key={index}>
+                                <img src={card.img} alt="" />
+                                <h2 className="section3_title4">{card.title}</h2>
+                                <p className="section3_subtitle6">{card.desc}</p>
                             </div>
-                            <div className="section3_card">
+                            ))}
+                            
+                            {/* <div className="section3_card">
                                 <img src={taxi} alt="" />
                                 <h2 className="section3_title5">Book Taxi</h2>
                                 <p className="section3_subtitle6">In-depth interviews with 19 owners of exceptionally successful US-based conventional travel agencies </p>
-                            </div>
-                            <div className="section3_card">
+                            </div> */}
+                            {/* <div className="section3_card">
                                 <img src={plane} alt="" />
                                 <h2 className="section3_title5">Book Plane</h2>
                                 <p className="section3_subtitle6">In-depth interviews with 19 owners of exceptionally successful US-based conventional travel agencies </p>
@@ -97,7 +99,7 @@ const Trp = () => {
                                 <img src={tour} alt="" />
                                 <h2 className="section3_title5">Book Tour</h2>
                                 <p className="section3_subtitle6">In-depth interviews with 19 owners of exceptionally successful US-based conventional travel agencies </p>
-                            </div>
+                            </div> */}
                         </div>
 
                     </div>
@@ -112,13 +114,16 @@ const Trp = () => {
                             <p className="section4_subtitle7">There was consensus, not surprisingly, that quality traditional travel agencies provide value for money. However, this was accompanied by a high level of concern that many consumers</p>
                         </div>
                         <div className="section4_trips">
-                            <div className="section4_description">
-                                <img src={thailand} alt="" />
-                                <h5 className="section4_title7">Trip to Thailand <span>250$</span></h5>
-                                <p className="section4_subtitle8">Join the leader in smallship cruising on the Great Lakes,</p>
-                                <Link to='/srv' className="Link"><button className="section4_btn">View Details</button></Link>
-                            </div>
-                            <div className="section4_description">
+                            {card2.map((card, index) => (
+                                <div className="section4_description" key={index}>
+                                    <img src={card.img} alt="" />
+                                    <h5 className="section4_title7">{card.title} <span>250$</span></h5>
+                                    <p className="section4_subtitle8">{card.desc}</p>
+                                    <Link to='/srv' className="Link"><button className="section4_btn">View Details</button></Link>
+                                </div>
+                            ))}
+
+                            {/* <div className="section4_description">
                                 <img src={thailand2} alt="" />
                                 <h5 className="section4_title7">Trip to Thailand <span>250$</span></h5>
                                 <p className="section4_subtitle8">Join the leader in smallship cruising on the Great Lakes,</p>
@@ -138,7 +143,7 @@ const Trp = () => {
                                 <p className="section4_subtitle8">Join the leader in smallship cruising on the Great Lakes,</p>
                                 <Link to='/srv' className="Link"><button className="section4_btn">View Details</button></Link>
 
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
