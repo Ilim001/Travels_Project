@@ -23,7 +23,7 @@ const [searchTerm, setSearchTerm] = useState('')
             return val;
            })
            .map((val) => {
-            return(
+            return( 
               <div className='template' key={val.id}> 
                   <img src={val.image} alt='' />
                   <h3>{val.title}</h3>
