@@ -108,7 +108,7 @@ const Trp = () => {
 
             <div className="section4">
                 <div className="container">
-                    <div className="section4_box">
+                    <div className="section4_box">        
                         <div className="section4_text">
                             <h2 className="section4_title6">Best Value Trips</h2>
                             <p className="section4_subtitle7">There was consensus, not surprisingly, that quality traditional travel agencies provide value for money. However, this was accompanied by a high level of concern that many consumers</p>
