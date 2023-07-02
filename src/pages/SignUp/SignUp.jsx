@@ -15,7 +15,7 @@ const SignUp = () => {
           } else{
             setFormValid(true)
           }
-      }, [emailError, passwordError])
+      }, [emailError, passwordError]) 
 
 
         const emailHandler = (e) =>{
