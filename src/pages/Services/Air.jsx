@@ -19,6 +19,6 @@ const Air = ({airport1, airport2, date1, date2, time1, time2, price1, btn1}) => 
           <div className="italic_button"><button className='italic_btn' onClick={resSum}>Купить билет:</button></div>
       </div>
   );
-};
+}; 
 
 export default Air;
